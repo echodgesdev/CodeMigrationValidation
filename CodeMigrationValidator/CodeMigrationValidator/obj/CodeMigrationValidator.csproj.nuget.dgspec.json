@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\crsrc\\Dev\\Tools\\ChrisCodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator.csproj": {}
+  },
+  "projects": {
+    "C:\\crsrc\\Dev\\Tools\\ChrisCodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\crsrc\\Dev\\Tools\\ChrisCodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator.csproj",
+        "projectName": "CodeMigrationValidator",
+        "projectPath": "C:\\crsrc\\Dev\\Tools\\ChrisCodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator.csproj",
+        "packagesPath": "C:\\Users\\chodges\\.nuget\\packages\\",
+        "outputPath": "C:\\crsrc\\Dev\\Tools\\ChrisCodeMigrationValidator\\CodeMigrationValidator\\CodeMigrationValidator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chodges\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\isgfile02\\uploads\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.6, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
