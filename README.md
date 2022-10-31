@@ -1,8 +1,8 @@
-﻿===============
 Overview
 ===============
 
-The Code Migration Validator is designed to validate Code Migration Tickets (tickets used by DevOps for the release of SoX applications).
+The Code Migration Validator is designed to validate Code Migration Tickets (tickets used by DevOps for the release of SoX applications). 
+This project is inspired by the workflow I've seen in my professional experience and can be adapted by modifying the ExpectedCMTCrawler.cs and ActualCMTCrawler.cs classes.
 
 Code Migration Process
 -----------------------
@@ -30,7 +30,6 @@ To Run:
 2. Results will print out on the screen and will be written to a results_{cmtNumber}_[currentDateTime].txt file in the code validator directory.
 
 
-==============
 Dev Notes
 ==============
 
@@ -41,7 +40,6 @@ Build
 3. Open Visual studo and build Debug Solution.
 2. Copy contents of Bin Directory to the deployment location in a version specific folder (follow the naming convention seen)-- \\isgfile02\DevTools\ProsUtilities\ChrisUtilities\CodeMigrationValidator
 
-=============================================
 Future Work Items/Room for improvepment
 =============================================
 * Change console App to simple REST API.
@@ -50,7 +48,6 @@ Future Work Items/Room for improvepment
 		(b) Triggered via a slack command as part of process
 		(c) Triggered on build of QA branches and updates the existing CM; This doesn't work for resources not in source control such as SQL scripts
 
-====================
 Release Notes v1.0
 ====================
 * Validates that all Feature Numbers Listed in AppSettings.json are in the Foundation CM
